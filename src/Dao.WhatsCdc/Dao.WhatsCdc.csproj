@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>NETCOREAPP3.1;NETSTANDARD2.1;net6.0;net7.0;net8.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Oscar Koo</Authors>
+    <Company>Oscar Koo</Company>
+    <Description>Full Implementation of SQLServer Change Data Capture (CDC) API</Description>
+    <Copyright>Copyright 2024 Oscar Koo</Copyright>
+    <PackageLicenseUrl>https://github.com/OscarKoo/WhatsCdc/blob/main/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/OscarKoo/WhatsCdc</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/OscarKoo/WhatsCdc/master/favicon.ico</PackageIconUrl>
+    <RepositoryUrl>https://github.com/OscarKoo/WhatsCdc</RepositoryUrl>
+    <PackageTags>SQLServer Change Data Capture (CDC) API</PackageTags>
+    <PackageReleaseNotes>Visit the project's url to see the Release Notes</PackageReleaseNotes>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Dao.WhatsCdc.csproj.DotSettings" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.1" />
+  </ItemGroup>
+
+</Project>
