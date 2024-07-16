@@ -1,5 +1,7 @@
 # Full Implementation of SQLServer Change Data Capture (CDC) API
 
+Install the [NuGet package](https://www.nuget.org/packages/Dao.WhatsCdc).
+
 ## How To Use
 ### Some commonly used methods
 #### Use ".Cdc()" to access the method
